@@ -1,0 +1,23 @@
+{
+  "name": "workfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarekOnd/Workfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarekOnd/Workfolio/issues"
+  },
+  "homepage": "https://github.com/MarekOnd/Workfolio#readme",
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "tailwindcss": "^3.4.1"
+  }
+}

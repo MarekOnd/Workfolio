@@ -1,23 +1,22 @@
 # Workfolio
 
-## Now uses Tailwind
-Tailwind initialization and css compilation
-```
-npx tailwindcss init
-npx tailwindcss -i ./src/input.css -o ./src/output.css
-```
+## Prerequisites
+<ol>
+    <li> npm
+    <li> npx
+    <li> Tailwind
+    <li> Typescript
+<ol>
 
+## Building project
+### Build Tailwind stuff
+```
+npx tailwindcss -i ./src/input.css -o ./dist/output.css
+```
+For development use ```--watch```.
 
-Parcel for GitHub pages
+### Build Typescript stuff
 ```
-npx parcel ./src/index.html --public-url ./
+npx webpack
 ```
-Deploy to github pages
-```
-npm run deploy
-```
-
-Parcel locally
-```
-npx parcel ./src/index.html
-```
+For development use ```--watch```.

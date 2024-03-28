@@ -18,6 +18,13 @@
   "homepage": "https://github.com/MarekOnd/Workfolio#readme",
   "devDependencies": {
     "gh-pages": "^6.1.1",
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^3.4.1",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.3",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "flowbite": "^2.3.0"
   }
 }

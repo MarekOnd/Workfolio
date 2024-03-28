@@ -6,7 +6,7 @@
     <li> npx
     <li> Tailwind
     <li> Typescript
-<ol>
+</ol>
 
 ## Building project
 ### Build Tailwind stuff

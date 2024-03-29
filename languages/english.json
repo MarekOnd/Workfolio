@@ -1,0 +1,22 @@
+[
+    {
+        "id":"main_title",
+        "text":""
+    },
+    {
+        "id":"home",
+        "text":"Home"
+    },
+    {
+        "id":"notes",
+        "text":"Notes"
+    },
+    {
+        "id":"links",
+        "text":"Links"
+    },
+    {
+        "id":"about",
+        "text":"About"
+    }
+]

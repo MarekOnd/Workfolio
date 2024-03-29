@@ -4,21 +4,34 @@ module.exports = {
   mode: "development",
   devtool: "inline-source-map",
   entry: {
-    main: "./src/index.ts",
+    index: "./src/index.ts",
+    notes: "./src/notes.ts",
+    links: "./src/links.ts",
+    about: "./src/about.ts",
+
   },
   output: {
     path: path.resolve(__dirname, './dist'),
-    filename: "app-bundle.js" // <--- Will be compiled to this single file
+    filename: "[name]-bundle.js" // <--- Will be compiled to this single file
   },
   resolve: {
     extensions: [".ts", ".tsx", ".js"],
   },
   module: {
     rules: [
-      { 
-        test: /\.tsx?$/,
-        loader: "ts-loader"
-      }
-    ]
-  }
+      {
+        test: /\.ts$/, // Match .ts files
+        exclude: /node_modules/,
+        use: 'ts-loader', // Use ts-loader for TypeScript files
+      },
+      {
+        test: /\.html$/, // Match .html files
+        exclude: /node_modules/,
+        use: 'html-loader', // Use html-loader for HTML files
+      },
+    ],
+  },
+  resolve: {
+    extensions: ['.ts', '.js'], // Resolve .ts and .js extensions
+  },
 };

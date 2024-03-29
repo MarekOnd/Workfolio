@@ -1,4 +1,4 @@
-# Workfolio
+# Webpage with Tailwind and Typescript example
 This project tries to setup a basic website with navigation bar system with the help of [Tailwindcss](https://tailwindcss.com/), [TypeScript](https://www.typescriptlang.org/).
 It is also configured for [Flowbite](https://flowbite.com/) components and the navbar text is loaded from english.json file so that the project is ready for localization.
 
